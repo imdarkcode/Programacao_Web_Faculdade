@@ -1,0 +1,150 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 500px;
+    height: 700px;
+    border: #202020 solid 2px;
+}
+
+header {
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+#economia-link {
+    color: #D98324;
+}
+
+#esportes-link {
+    color: #3A7D44;
+}
+
+#carros-link {
+    color: #A31D1D;
+}
+
+#pets-link {
+    color: #EB5A3C;
+}
+
+.nav-divisor {
+    height: 3px;
+    background-color: #23486A;
+}
+
+h1 {
+    font-size: 24pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #202020;
+    font-weight: 600;
+    padding: 20px;
+}
+
+#icone-seta {
+    width: 20px;
+}
+
+#ao-vivo, #brasil, #carros {
+    padding: 16px 20px;
+}
+
+#ao-vivo h2 {
+    font-size: 14pt;
+    text-decoration: underline;
+    color: #202020;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#ao-vivo h3 a{
+    color: #2973B2;
+    font-weight: 600;
+    font-size: 24pt;
+}
+
+.section-divisor {
+    border: #ddd 1px;
+    border-style: dashed;
+    margin: 0 16px;
+}
+
+#brasil h2 {
+    font-size: 14pt;
+    color: #202020;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#brasil h3 a{
+    color: #2973B2;
+    font-size: 20pt;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#brasil ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 20px 0;
+}
+
+#brasil ul li a {
+    color: #2973B2;
+    font-size: 12pt;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+#brasil ul li::marker a{
+    color: #202020;
+}
+
+#carros {
+    display: flex;
+    gap: 40px;
+}
+
+#carros-img img{
+    width: 200px;
+}
+
+#carros h2 {
+    font-size: 14pt;
+    color: #202020;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#carros h3 a{
+    color: #2973B2;
+    font-size: 20pt;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-divisor {
+    height: 2px;
+    background-color: #202020;
+    margin: 20px;
+}
