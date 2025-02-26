@@ -1,0 +1,131 @@
+/*
+A sintaxe do css é formada por:
+
+seletor {
+    propriedade: valor;
+}
+
+Sintaxe de seletor composto:
+
+seletor seletorFilho {
+    propriedade: valor;
+}
+    
+Sintaxe de pseudo classe:
+
+seletor:pseudoClasse {
+    propriedade: valor;
+}
+
+Sintaxe de pseudo elemento:
+
+seletor::pseudoElemento {
+    propriedade: valor;
+}
+
+Seletores:
+
+seletor - elemento
+#seletor - id
+.seletor - class
+*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Mudar a fonte do texto */
+}
+
+body {
+    background-color: #e6e1d3;
+}
+
+header { /* Elemento header */
+    background-color: #0E1111; /* Mudar a cor do background */
+    height: 80px; /* Mudar a altura do elemento */
+    display: flex; /* Mudar a distrbuição dos itens do elemento */
+    align-items: center; /* Mudar o alinhamento dos itens do elemento */
+    padding: 8px 80px; /* Mudar o tamanho do padding */
+    justify-content: space-between; /* Mudar o alinhamento horizontal dos itens */
+}
+
+header a { /* Links do header */
+    color: #e6e1d3; /* Mudar a cor do texto */
+    text-decoration: none; /* Remover as decorações do texto */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Mudar a fonte do texto */
+    font-size: 14pt; /* Mudar o tamanho da fonte */
+    transition: 200ms /* Adicionanr uma transição */;
+}
+
+header a:hover { /* Links do header ao passar o mouse */
+    color: #AF734A; /* Mudar a cor do texto */
+}
+
+header nav ol { /* Lista ordenada */
+    display: flex; /* Mudar a distrbuição dos elementos */
+}
+
+header nav ol li { /* Itens da lista ordenada */
+    padding: 0 20px; /* Mudar o tamanho do padding */
+}
+
+#logo-principal { /* Imagem da logo */
+    height: 32px; /* Mudar a altura do elemento */
+}
+
+#slider { /* Section slider */
+    height: 300px; /* Mudar o tamanho do elemento */
+    background-image: url("../image/slide-background.jpg"); /* Mudar a imagem do background */
+    background-size: cover; /* Mudar o tamanho da imagem do background */
+    background-position: center center; /* Mudar a posição da imagem do background */
+}
+
+article { /* Conteudo de textos*/
+    display: flex; /* Mudar a distrbuição dos elementos */
+    gap: 48px; /* Espaçar os itens */
+    padding: 80px; /* Mudar o tamanho do padding */
+}
+
+.card-artigo { /* Card do artigo */
+    padding: 40px; /* Mudar o tamanho do padding */
+    background-color: #0E1111; /* Mudar a cor do fundo */
+    color: #e6e1d3; /* Mudar a cor do texto */
+    border-radius: 20px; /* Mudar o arredondamento das bordas */
+}
+
+.card-artigo h2 { /* Titulo do card */
+    text-align: center; /* Mudar o alinhamento do texto */
+    margin-bottom: 20px; /* Mudar a margem inferior */
+    font-size: 16pt; /* Mudar o tamanho da fonte */
+    color: #AF734A; /* Mudar a cor do texto */
+}
+
+.card-artigo p { /* Texto do card */
+    font-size: 12pt; /* Mudar o tamanho da fonte */
+    line-height: 18pt; /* Mudar o tamanho da linha */
+    text-align: center; /* Mudar o alinhamento do texto */
+}
+
+footer { /* Rodapé */
+    background-color: #0E1111; /* Mudar a cor do fundo */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#redes-sociais ol {
+    display: flex;
+    justify-content: center;
+    padding: 20px 80px;
+    gap: 20px; /* Mudar o tamanho do espaçamento dos itens */
+}
+
+#redes-sociais img{
+    width: 32px; /* Mudar a largura */
+}
+
+#copy p{
+    text-align: center;
+    color: #e6e1d3;
+    padding: 0 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+}

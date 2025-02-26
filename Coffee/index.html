@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffee</title>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+
+        <!--
+        A sintaxe do html é formada por:
+
+        <tag> conteúdo </tag>
+
+        Tenho tags de dois tipos:
+
+        1 - Estrutural;
+        2 - Conteúdo.
+
+        Exemplos de tags estruturais:
+
+        - body: que é toda a parte visível do site
+        - header: topo do site normalmente onde tenho o logo e menu;
+        - nav: tag que declara o menu;
+        - main: tag que declara o corpo do site;
+        - section: que divide sessões do site;
+        - divs: que divide sections;
+        - footer: a base do site;
+        - article: par ao artigo principal da página.
+
+        Exemplos de tags de conteúdo:
+
+        - h1 até h5: Títulos com graus de importância semântica;
+        - p: parágrafo;
+        - img: imagem;
+        - a: é link;
+        - ul: lista não ordenada;
+        - ol: lista ordenada;
+        - li: item de lista;
+        -->
+
+        <header>
+            <!-- Logo -->
+            <img src="image/logo-coffee.svg" alt="logo" id="logo-principal">
+
+            <!-- Menu de navegação -->
+            <nav>
+                <ol>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Empresa</a></li>
+                    <li><a href="">Contato</a></li>
+                </ol>
+            </nav>
+        </header>
+
+        <!-- Conteúdo do site -->
+        <main>
+            <!-- Banner -->
+            <section id="slider"></section>
+
+            <!-- Conteúdo de texto -->
+            <article>
+                <div class="card-artigo">
+                    <h2>Título 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl nisl, convallis sed nisi consectetur, porttitor consequat turpis. Aenean mauris urna, rhoncus in arcu rhoncus, blandit sagittis diam. Pellentesque iaculis diam id euismod volutpat. Vivamus consectetur mauris ut mauris bibendum, quis dapibus mi hendrerit. Quisque suscipit diam sapien, in hendrerit ipsum porttitor sed. Praesent ex ligula, molestie pellentesque accumsan vitae, euismod a diam. Cras interdum efficitur blandit. Phasellus id ante viverra, finibus urna vel, tempor purus. Vivamus magna metus, pharetra ac metus ac, elementum feugiat leo. Donec malesuada dui at est fringilla, sit amet feugiat sapien dignissim. Sed eget tincidunt massa, vel luctus enim.</p>
+                </div>
+
+                <div class="card-artigo">
+                    <h2>Título 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl nisl, convallis sed nisi consectetur, porttitor consequat turpis. Aenean mauris urna, rhoncus in arcu rhoncus, blandit sagittis diam. Pellentesque iaculis diam id euismod volutpat. Vivamus consectetur mauris ut mauris bibendum, quis dapibus mi hendrerit. Quisque suscipit diam sapien, in hendrerit ipsum porttitor sed. Praesent ex ligula, molestie pellentesque accumsan vitae, euismod a diam. Cras interdum efficitur blandit. Phasellus id ante viverra, finibus urna vel, tempor purus. Vivamus magna metus, pharetra ac metus ac, elementum feugiat leo. Donec malesuada dui at est fringilla, sit amet feugiat sapien dignissim. Sed eget tincidunt massa, vel luctus enim.</p>
+                </div>
+
+                <div class="card-artigo">
+                    <h2>Título 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl nisl, convallis sed nisi consectetur, porttitor consequat turpis. Aenean mauris urna, rhoncus in arcu rhoncus, blandit sagittis diam. Pellentesque iaculis diam id euismod volutpat. Vivamus consectetur mauris ut mauris bibendum, quis dapibus mi hendrerit. Quisque suscipit diam sapien, in hendrerit ipsum porttitor sed. Praesent ex ligula, molestie pellentesque accumsan vitae, euismod a diam. Cras interdum efficitur blandit. Phasellus id ante viverra, finibus urna vel, tempor purus. Vivamus magna metus, pharetra ac metus ac, elementum feugiat leo. Donec malesuada dui at est fringilla, sit amet feugiat sapien dignissim. Sed eget tincidunt massa, vel luctus enim.</p>
+                </div>
+            </article>
+
+        </main>
+
+        <!-- Rodapé do site -->
+        <footer>
+            <!-- Links -->
+            <div>
+                <nav id="redes-sociais">
+                    <ol>
+                        <li><a href=""><img src="image/icon-facebook.svg" alt="Icone do facebook"></a></li>
+                        <li><a href=""><img src="image/icon-instagram.svg" alt="Icone do instagram"></a></li>
+                        <li><a href=""><img src="image/icon-whatsapp.svg" alt="Icone do whatsapp"></a></li>
+                    </ol>
+                </nav>
+            </div>
+            <!-- Copy -->
+            <div id="copy">
+                <p>Darkcode</p>
+            </div>
+        </footer>
+    </body>
+</html>
